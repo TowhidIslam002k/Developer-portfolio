@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+section{
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+.fst-sec{
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left; 
+}
+.orange-bg{
+    background: #ff8205;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: bolder;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+}
+.nav-a{
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.img{
+    height: 676px;
+    width: 584px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    width: 200px;
+}
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+.div-ps{
+    padding-left: 212px;
+}
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.main-p1{
+    color: dimgray;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 855px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.my-info{
+    margin: 0 auto;
+    width: 880px;
+    flex-wrap: wrap;
+}
+.info-p{
+    align-items: center;
+    color: dimgray;
+    font-weight: bolder;
+}
+.what-i-do{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(45deg, yellow, tomato);
+    margin: 0 auto;
+    width: 500px;
+}
+.card{
+    height: 480px;
+    box-shadow: 5px 5px 10px gray;
+}
+.img-card{
+    margin: 20px auto;
+    width: 60px;
+    height: 60px;
+}
+.card-text{
+    text-align: justify;
+}
+.about{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(45deg,blue, cyan);
+    margin: 0 auto;
+    width: 350px; 
+}
+.description{
+    color: dimgray;
+    width: 300px;
+    text-align: justify;
+}
+.skill-title{
+    font-weight: bold;
+    color: red; 
+}
+.title{
+    color: blue;
+}
+.sub-title{
+    color: green;
+}
+.skill-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-with-me{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-bottom: 0%;
+}
+.section-description{
+    width: 380px;
+    color: dimgray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+.last-div{
+    margin-left: 50px;
+}
+footer{
+    margin: 0 auto;
+    width: 400px;
+    font-weight: bold;
+    color: rgb(248, 252, 0);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.margin-l{
+    margin-left: 80px;
+}
